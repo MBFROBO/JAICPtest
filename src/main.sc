@@ -12,7 +12,7 @@ theme: /
         
 
     state: weather
-        q!: *~погод*
+        q!: *~погода*
         a: Сегодня отличная погода!
         
     state: currency
