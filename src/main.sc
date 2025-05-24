@@ -16,7 +16,7 @@ theme: /
         a: Сегодня отличная погода!
         
     state: currency
-        event!: /валюта
+        intent!: /валюта
         a: Курс валюты безбашенный
 
     state: NoMatch
