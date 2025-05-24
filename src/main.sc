@@ -12,11 +12,11 @@ theme: /
         
 
     state: weather
-        q: *~погод*
+        q!: *~погод*
         a: Сегодня отличная погода!
         
     state: currency
-        q: *~валют*
+        q!: *~валют*
         a: Курс валюты безбашенный
 
     state: NoMatch
