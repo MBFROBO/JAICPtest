@@ -12,15 +12,15 @@ theme: /
         
 
     state: weather
-        q: погода
+        q: *~погод*
         a: Сегодня отличная погода!
         
     state: currency
-        q: валюта
+        q: *~валют*
         a: Курс валюты безбашенный
 
     state: NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
 
-    
+        
